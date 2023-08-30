@@ -33,7 +33,7 @@ const Chat = () => {
 
         setChatLog(newChatLog);
 
-        const response = await fetch('http://localhost:8080/api/v1/chat', {
+        const response = await fetch('https://capsule-6llp.onrender.com/api/v1/chat', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
